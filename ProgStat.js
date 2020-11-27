@@ -6,8 +6,9 @@ let max =null;
 let min =null;
 let somme =null;
 let moyenne= null;
+let stat = null;
 
-    saisie = prompt('Entrez un nombre');
+    saisie = prompt('Entrez un nombre ( La saisie de 0 entraine la fin du programme)');
     saisieInt = parseInt (saisie)
 if (saisie !=0 ) {
     do {
@@ -36,11 +37,11 @@ if (saisie !=0 ) {
     
         total = numbers.length;
         moyenne = somme/total;
-
-    console.log (total+'nombres saisis');
-    console.log ('Dont le plus petit est:'+ min+"et le plus grand est:"+max);
-    console.log ("Pour une somme de:"+somme);
-    console.log ('Et une moyenne de:'+moyenne);
+stat = `${total} nombres de saisis
+Dont le plus petit est : ${min} et le plus grand est : ${max}
+Pour une somme de : ${somme}
+Et une moyenne de : ${moyenne}`
+alert (stat)
 
 } else {
     console.log ("Vous n'avez entré aucun nombre ! ");
