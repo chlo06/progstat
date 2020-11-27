@@ -44,5 +44,5 @@ Et une moyenne de : ${moyenne}`
 alert (stat)
 
 } else {
-    console.log ("Vous n'avez entré aucun nombre ! ");
+   alert ("Vous n'avez entré aucun nombre ! ");
 }
