@@ -43,7 +43,7 @@ Dont le plus petit est : ${min} et le plus grand est : ${max}
 Pour une somme de : ${somme}
 Et une moyenne de : ${moyenne}`
 
-console.log(stat)
+console.log (stat)
 alert (stat)
 
 
