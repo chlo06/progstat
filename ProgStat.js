@@ -37,11 +37,15 @@ if (saisie !=0 ) {
     
         total = numbers.length;
         moyenne = somme/total;
+
 stat = `${total} nombres de saisis
 Dont le plus petit est : ${min} et le plus grand est : ${max}
 Pour une somme de : ${somme}
 Et une moyenne de : ${moyenne}`
+
+console.log(stat)
 alert (stat)
+
 
 } else {
    alert ("Vous n'avez entré aucun nombre ! ");
